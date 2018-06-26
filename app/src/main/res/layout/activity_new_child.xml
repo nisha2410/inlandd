@@ -1,0 +1,100 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/boy"
+    tools:context=".NewChild">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="180dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#3000"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:background="#F7F8FA"
+            android:drawableLeft="@drawable/user"
+            android:drawablePadding="5dp"
+            android:ems="10"
+
+            android:hint=" YourName"
+            android:padding="10dp">
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:background="#F7F8FA"
+            android:drawableLeft="@drawable/baby"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="ChildName"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:background="#F7F8FA"
+            android:drawableLeft="@drawable/pass"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint=" Password"
+            android:inputType="textPassword"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:background="#F7F8FA"
+            android:drawableLeft="@drawable/telephone"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint=" PhoneNumber"
+            android:inputType="phone"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:background="#F7F8FA"
+            android:drawableLeft="@drawable/mail"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="  Your Mail ID"
+            android:inputType="textEmailAddress"
+            android:padding="10dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/linearLayout1"
+        android:layout_marginTop="150dp"
+        android:background="#AA000000"
+        android:padding="10dp"
+        android:text=" REGISTER"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>

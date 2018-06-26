@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">BabyCare</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_up_to3">UpTo3</string>
+    <string name="title_activity_four_to6">FourTo6</string>
+    <string name="title_activity_seven_to10">SevenTo10</string>
+    <string name="title_activity_new_parent">NewParent</string>
+    <string name="title_activity_baby">Baby</string>
+    <string name="title_activity_kid">Kid</string>
+    <string name="title_activity_child">Child</string>
+    <string name="title_activity_new_baby">NewBaby</string>
+    <string name="title_activity_new_child">NewChild</string>
+    <string name="title_activity_new_kid">NewKid</string>
+    <string name="title_activity_vaccination">Vaccination</string>
+    <string name="title_activity_further_details">FurtherDetails</string>
+    <string name="title_activity_doc_details">DocDetails</string>
+    <string name="title_activity_add_details">AddDetails</string>
+    <string name="title_activity_display_details">DisplayDetails</string>
+    <string name="title_activity_add">AddActivity</string>
+    <string name="title_activity_display">DisplayActivity</string>
+    <string name="title_activity_display_adapter">DisplayAdapter</string>
+    <string name="title_activity_db_helper">DbHelper</string>
+    <string name="title_activity_vaccine">Vaccine</string>
+    <string name="title_activity_view_details">ViewDetails</string>
+    <string name="title_activity_view_fees">ViewFees</string>
+    <string name="title_activity_add_fees">AddFees</string>
+    <string name="title_activity_add_exam">AddExam</string>
+    <string name="title_activity_view_exam">ViewExam</string>
+    <string name="title_activity_db_helper1">DbHelper1</string>
+    <string name="title_activity_display_adapter1">DisplayAdapter1</string>
+    <string name="title_activity_vaccination_date">VaccinationDate</string>
+    <string name="title_activity_search">Search</string>
+    <string name="title_activity_further_details1">FurtherDetails1</string>
+</resources>

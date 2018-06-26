@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="nnk.com.babyhealthcare">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Child" />
+        <activity android:name=".Baby" />
+        <activity android:name=".Kid" />
+        <activity android:name=".Addfees" />
+        <activity android:name=".AddExam" />
+        <activity android:name=".AddDetail" />
+        <activity android:name=".FourToSix" />
+        <activity android:name=".FurtherDetails" />
+        <activity android:name=".UpTo3" />
+        <activity android:name=".ViewDetails" />
+        <activity android:name=".ViewFees" />
+        <activity android:name=".SevebTo10" />
+        <activity android:name=".ViewExam" />
+        <activity android:name=".Vaccine" />
+        <activity android:name=".FurtherDetails1" />
+        <activity android:name=".NewKid" />
+        <activity android:name=".Vaccination" />
+        <activity android:name=".Search" />
+        <activity android:name=".VaccinationDate" />
+        <activity android:name=".NewBaby" />
+        <activity android:name=".NewChild" />
+        <activity android:name=".Display_Activity" />
+        <activity android:name=".Add_Activity" />
+        <activity android:name=".SplashPage"></activity>
+    </application>
+
+</manifest>

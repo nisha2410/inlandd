@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dad"
+    tools:context=".Child">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="20dp"
+        android:background="#3000"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:text="WELCOME SUNSHINE"
+            android:textColor="#000000"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_alignRight="@+id/textView1"
+            android:layout_below="@+id/editText1"
+            android:layout_marginTop="34dp"
+            android:background="#AAFCD472"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Your ChildName"
+            android:inputType="textPassword"
+            android:padding="15dp"
+            android:textColorHint="#000000" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_alignRight="@+id/editText2"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="84dp"
+            android:background="#AAFCD472"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Your  Name"
+            android:padding="15dp"
+            android:textColorHint="#000000" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="44dp"
+            android:background="#AAEF9B0F"
+            android:text="LOGIN"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText2"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/editText2"
+            android:layout_marginBottom="21dp"
+            android:background="#AAFFFFFF"
+            android:text="NEW CHILD? REGISTER HERE"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</RelativeLayout>
